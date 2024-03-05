@@ -1,18 +1,23 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "A simple application using Node.js + Nginx + Docker",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "docker",
+    "nodejs",
+    "nginx",
+    "proxy-reverso"
+  ],
+  "author": "Glaucia Lemos <Twitter: @glaucia_lemos86>",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "faker": "^5.1.0",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
     "mysql": "^2.18.1"
   }
 }
